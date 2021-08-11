@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Logo{
+    width: 25rem;
+}
+
+.CampusFoto{
+    position: absolute;
+    width:  100%;
+    height: 100vh;
+
+}
+
+.card-content{
+    display: flex;
+
+    flex-direction: column;
+
+    align-content: space-around;
+}
+
+.ifceLogin{
+    
+    display: flex;
+
+    align-items: center;
+
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.loginIfce{
+    position: absolute;
+
+    z-index: 5;
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    border-radius: 35px;
+
+    top: 25%;
+
+    left: 35%;
+
+    
+}
+
+input{
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    border: 1px solid white;
+    
+    color: black;
+    
+    width: 17rem;
+    height: 2.3rem;
+
+    padding-left: 1rem;
+
+    background-color: #FFFFFF;
+
+    font-size: 15px;
+
+    text-indent: 2rem;
+}
+
+.input-field .fas{
+    
+    position: relative;
+    
+    left: 2.5rem;
+
+    color: #729e72;
+
+}
+
+input::placeholder{
+
+    color: #075506;
+
+}
+
+.formulario{
+    padding: 5px;
+    position: relative;
+
+    text-align: center;
+}
+
+.botao{
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+
+    border: 1px solid white;
+    
+    width: 9rem;
+    height: 2.3rem;
+
+    align-items: center;
+    
+    background-color: rgba(0, 109, 68, 1);
+
+}
+
+.botao p{
+    color: white;
+    font-size: 15px;
+    margin: 0.2rem;
+}
+
+.esqueceuSenha{
+    margin: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+
+.card .ifceLogin{
+    border-radius: 50px;
+}
+
+.card .card-action{
+    border-radius: 50px 50px 0px 0px;
+}
+
+.card-content{
+    border-radius: 50px;
+}
